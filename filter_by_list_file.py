@@ -1,3 +1,8 @@
+"""
+filters lines with any of word list file.
+"""
+__author__ = "ICHIKAWA, Yuji <ichikawa.yuji@gmail.com>"
+
 import sys
 
 def main(csv_filename: str, illegal_list_filename: str) -> None:

@@ -37,7 +37,7 @@ python filter_by_list_file.py winrates.raw.csv illegal_variation_sgfs.txt > winr
 
 ### delta_winrates.py
 
-outputs AI's wonderful suggestions and professionals' execellent play moves.
+outputs the positions with AI's wonderful suggestions and professionals' execellent play moves.
 
 ## License
 

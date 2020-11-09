@@ -1,3 +1,8 @@
+"""
+outputs the positions with AI's wonderful suggestions and professionals' execellent play moves.
+"""
+__author__ = "ICHIKAWA, Yuji <ichikawa.yuji@gmail.com>"
+
 import sys
 import csv
 from typing import Tuple, Dict
