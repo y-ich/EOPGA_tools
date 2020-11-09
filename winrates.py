@@ -7,13 +7,7 @@ import sys
 from multiprocessing import Pool
 import psutil
 import sgf
-from utilities import file_pathes_under
-
-def parse_comment(s: str) -> tuple[float, int]:
-    tokens = s.split("\n")
-    if len(tokens) != 2:
-        raise Exception("invalid string")
-    return float(tokens[0]), int(tokens[1])
+from utilities import file_pathes_under, parse_comment
 
 def winrate_of(node: sgf.Node) -> float:
     """

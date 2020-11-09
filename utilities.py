@@ -15,3 +15,8 @@ def file_pathes_under(directory: str, extension: str) -> Generator[str, None, No
         elif p.endswith(dot_extension):
             yield p
 
+def parse_comment(s: str) -> tuple[float, int]:
+    tokens = s.split("\n")
+    if len(tokens) != 2:
+        raise Exception("invalid string")
+    return float(tokens[0]), int(tokens[1])

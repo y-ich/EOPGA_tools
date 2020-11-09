@@ -35,6 +35,10 @@ filters lines with any of word list file.
 python filter_by_list_file.py winrates.raw.csv illegal_variation_sgfs.txt > winrates.csv
 ```
 
+### delta_winrates.py
+
+outputs AI's wonderful suggestions and professionals' execellent play moves.
+
 ## License
 
 MIT
