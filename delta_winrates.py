@@ -46,11 +46,11 @@ def main(filename: str) -> None:
                 n += 1
                 if n == move_number:
                     winrate, visits = parse_comment(node.properties["C"][0])
-                    if visits >= 800:
+                    if visits >= 400:
                         print(sgf_filename, move_number, delta_winrates[idx])
                         count += 1
                         break
-        if count >= 10:
+        if count >= 100:
             break
 
     print("surprising move")
